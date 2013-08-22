@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Form Page</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="jquery-2.0.3.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>User Profile Form <span>with aweeesome madlibs action </span></h1>	
+		</header>
+		<div class="wrapper">
+			<div class="leftcontent">
+				<form action="keeronmarc.github.io" class="class-form" method="post" onsubmit="return validate();" name="keyForm">
+					<div class="class-column">
+						<div class="button">Send Here</div>
+						<label for="first_name">First Name</label>
+	  					<input type="text" class="firstName" name="first_name" placeholder="You're Awesome!">
+	  					<label for="last_name">Last Name</label>
+	  					<input type="text" class="last_name" name="last_name" placeholder="keeron">
+	  					<label for="email">Email Address</label>
+	  					<input type="text" class="email" name="email" placeholder="keeronmarc@gmail.com">
+	  					<label for="cups" name="mugs">Cup Size</label>
+	  					<input type="text" class="cup_joe" name="cups" placeholder="starbucks">
+
+	  					<label for="coffee">Coffee Type</label>
+	  					<select id="coffeeType" name="coffee">
+	  						<option>Columbian</option>
+	  						<option>Costa Rican</option>
+	  					</select>
+	  					<label for="country">Country</label>
+		  					<select id="country" name="country">
+		  						<option>Choose a country</option>
+		  						<option>IronYard</option>
+		  						<option>Co-Work</option>
+		  						<option>Cape State</option>
+		  					</select>	
+	  					<label for="bio">Biography</label>
+	  					<textarea id="bio" name="bio"></textarea>
+	  					<label for="comments">Comments</label>
+	  					<textarea id="comments" name="comments"></textarea>	
+
+	  				</div>
+	  			</form>
+
+	  		</div>		
+
+			<div class="rightcontent">
+			I feel like <span id="firstNameOutput"></span> is making a <span id="lastNameOutput"></span>profile for class assignment, so can you <span id="emailOutput"></span>drink <span id="coffeeOutput"></span>
+			</div>
+
+		</div><!-- /wrapper -->
+		<script src="test.js"></script>
+	</body>
+	</html>
