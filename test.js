@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$('.button').click(function() {
 			if (validateForm()) {
 				colorbgd();
@@ -54,8 +55,6 @@ $(document).ready(function() {
 
 })
 			
-			
-
 
 // function displayVars() {
 // 	var singleCoffee = $('#coffeeType').val();
@@ -64,10 +63,6 @@ $(document).ready(function() {
 //  	$('select').change(displayVars);
 //  	displayVars();
 //  }
-
-
-
-
 
 
 
