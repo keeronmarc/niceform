@@ -1,4 +1,14 @@
-$(document).ready(function() {
+//****************************************************************************
+// 								Overview: 
+// Take Form input data, store variables as object, save object into array
+// Loop through array and display all objects in array
+//*****************************************************************************
+// Step 1: Saves input data as variables, store into object {}
+// Step 2:
+
+
+
+¡$(document).ready(function() {
 
 	$('.button').click(function() {
 			if (validateForm()) {
@@ -15,7 +25,8 @@ $(document).ready(function() {
 		else {
 			$('body').css("background", "#ff0006");}
 	}
-				
+
+// Step 1: Saves input data as variables, store into object {		
 	function runall () {
 		var firstName = $('.firstName').val();
 		var lastName = $('.lastName').val();

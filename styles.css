@@ -1,4 +1,4 @@
-/* General Demo Style */
+¡/* General Demo Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body, html { font-size: 100%; padding: 0; margin: 0;}
@@ -10,6 +10,31 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.profile {
+	background: #ff0066;
+	width: 300px;
+	height: 200px;
+	font-size: 15px;
+	margin: 0px;
+	padding: 20px;
+}
+
+.profile-letter {
+	width: 100px;
+	font-size: 35px;
+	margin: 20px 0px 0px 0px;
+	font-color: #fff;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+
+.datasubmit {
+	width: 300px;
+	height: auto;
+	font-size: 14px;
 }
 
 .clearfix:before,
